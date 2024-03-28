@@ -2,6 +2,8 @@
 import express from 'express';
 import cors from "cors";
 import morgan from "morgan"; 
+
+
 import enrutadorRegistros from './rutas/rutaRegistros.js';
 import enrutadorLogueo from "./rutas/rutaLogueo.js";
 import enrutadorImagenes from './rutas/rutaImagenes.js';
